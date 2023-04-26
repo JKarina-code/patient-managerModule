@@ -51,7 +51,7 @@ export function newAppointment(e) {
 
   if (editing) {
     manageAppointments.editAppointment({ ...appointmentObj });
-    ui.printAlert("Edited successful");
+    ui.printAlert("Appointment edited successfully");
     formAppointment.querySelector('button[type="submit"]').textContent =
       "Create Appointment";
     editing = false;
@@ -83,7 +83,7 @@ export function restartObj() {
 export function deleteAppointment(id) {
   manageAppointments.deleteAppointment(id);
 
-  ui.printAlert("The appointment delete successful");
+  ui.printAlert("Appointment deleted successfully");
 
   ui.printAppointments(manageAppointments);
 }
