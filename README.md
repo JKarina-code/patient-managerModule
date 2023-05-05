@@ -8,7 +8,7 @@ This project is a tool made in vanilla javaScript with Modules en ES6.   Imports
 
 ## 📁 Project access
 
-- $ git clone https://github.com/JKarina-code/patient-manager.git
+- $ git clone https://github.com/JKarina-code/patient-managerModule.git
 - $ cd ../path/to/the/file
 
 ## 🛠️ Used technology
